@@ -3,6 +3,14 @@
 Collection of my system configuration files.
 
 
+## Start
+
+1. Run `git clone git@github.com:herczogzoltan/dotfiles.git $HOME/.dotfiles` - to get the repository
+1. Run `cd .dotfiles` - to go inside the cloned repository
+1. Run `./scripts/bootstrap` - answer the questions related to configuration
+1. Run `./scripts/install` - to install dependencies
+
+
 ## Tribute
 
 The structure highly depends on [Zach Holman](https://github.com/holman)'s [dotfiles](https://github.com/holman/dotfiles/tree/7b8b643640e636d499fc4eaaf4de57d5bd8c2261) repository structure. Thanks for this awesome project.
