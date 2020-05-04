@@ -1,2 +1,6 @@
+if [[ $(uname) != "Darwin" ]]; then
+    exit 0
+fi
+
 open macos/custom-profile.terminal
-source set-defaults.sh
+source ./set-defaults.sh
