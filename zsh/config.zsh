@@ -1,0 +1,3 @@
+HISTTIMEFORMAT="%F %T "
+
+PATH=$PATH:$HOME/bin
