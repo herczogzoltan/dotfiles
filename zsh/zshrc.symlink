@@ -1,5 +1,5 @@
-# There are parts of code that I've got from Zach Holman
-# credits to him and his awesome job https://github.com/holman/dotfiles
+# Credits to Zack Holman - https://github.com/holman/dotfiles/blob/7b8b643640e636d499fc4eaaf4de57d5bd8c2261/zsh/zshrc.symlink
+# You may find some modifications according to the linked code above.
 
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$HOME/.dotfiles

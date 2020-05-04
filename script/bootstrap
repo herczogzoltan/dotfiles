@@ -2,7 +2,7 @@
 #
 # bootstrap installs things.
 #
-# Credits to https://github.com/holman/dotfiles
+# Credits to Zack Holman https://github.com/holman/dotfiles/blob/7b8b643640e636d499fc4eaaf4de57d5bd8c2261/script/bootstrap
 
 cd "$(dirname "$0")/.."
 DOTFILES_ROOT=$(pwd -P)
