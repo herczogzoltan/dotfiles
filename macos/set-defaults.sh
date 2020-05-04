@@ -1,0 +1,1 @@
+defaults write com.apple.terminal "Default Window Settings" "custom-profile"
