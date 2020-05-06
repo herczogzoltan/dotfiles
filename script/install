@@ -1,11 +1,28 @@
 #!/usr/bin/env bash
 #
 # Run all dotfiles installers.
-# Full credits to Zack Holman - https://github.com/holman/dotfiles/blob/7b8b643640e636d499fc4eaaf4de57d5bd8c2261/script/install
+# Used some of the parts of the installer from @holman - https://github.com/holman/dotfiles/blob/7b8b643640e636d499fc4eaaf4de57d5bd8c2261/script/install
 
 set -e
 
 cd "$(dirname $0)"/..
 
+ask_install () 
+{
+        echo "[dotfiles installer] Would you like to run this install script? $1 [Y/n]: "
+        read action < /dev/tty
+        if [[ "$action" == Y* ]] || [[ "$action" == y* ]] || [ -z "$action" ]; then
+          echo "Attempting to run $1 ..."
+          sh -c "$1"
+          if [[ 0 == $? ]]; then
+            echo "Successfully finished $1"
+            else
+            echo "Something happened. Installer output: $?"
+          fi
+        else
+          echo "Skipping $1 ..."
+        fi
+}
+
 # find the installers and run them iteratively
-find . -name install.sh | while read installer ; do sh -c "${installer}" ; done
+find . -name install.sh | while read installer ; do ask_install "$installer"; done
