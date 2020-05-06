@@ -3,4 +3,4 @@ if [[ $(uname) != "Darwin" ]]; then
 fi
 
 open macos/custom-profile.terminal
-source ./set-defaults.sh
+source $(pwd)/macos/set-defaults.sh
