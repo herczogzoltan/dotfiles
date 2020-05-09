@@ -1,6 +1,6 @@
 # dotfiles
 
-Collection of my system configuration files.
+Collection of my system configuration files and the programs I use.
 
 
 ## Start
@@ -13,7 +13,7 @@ Collection of my system configuration files.
 
 ## Tribute
 
-The structure highly depends on [Zach Holman](https://github.com/holman)'s [dotfiles](https://github.com/holman/dotfiles/tree/7b8b643640e636d499fc4eaaf4de57d5bd8c2261) repository structure. Thanks for this awesome project.
+The structure highly relies on [Zach Holman](https://github.com/holman)'s [dotfiles](https://github.com/holman/dotfiles/tree/7b8b643640e636d499fc4eaaf4de57d5bd8c2261) repository structure. Thanks for this awesome project.
 
 
 ## Bootstrap
