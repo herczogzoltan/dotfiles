@@ -17,10 +17,10 @@ fi
 
 # In case you want to have machine-specific configuration
 # which will be excluded from versioning.
-if [[ -a ~/.local.zsh ]]
-then
-  source ~/.local.zsh
+if [[ -e "$HOME/.local.zsh" ]]; then
+	source $HOME/.local.zsh
 fi
+
 
 # all of our zsh files
 typeset -U config_files
