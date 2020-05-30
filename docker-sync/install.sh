@@ -13,13 +13,10 @@ if test ! $(which docker-sync); then
 
 fi
 
-# install docker-sync and dependencies via brew
-brew install unison
-brew install eugenmayer/dockersync/unox
+# install docker-sync
 if which ruby >/dev/null && which gem >/dev/null; then
   gem install --user-install docker-sync
   exit 0
 fi
-
 
 exit 1
