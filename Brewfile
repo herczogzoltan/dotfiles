@@ -15,3 +15,5 @@ brew "ripgrep"
 brew "speedtest-cli"
 brew "tmux"
 brew "unison"
+
+cask "ngrok"
