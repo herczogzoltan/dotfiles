@@ -20,4 +20,4 @@ brew "wireshark"
 
 cask "ngrok"
 cask "wireshark"
-
+cask "kap"
