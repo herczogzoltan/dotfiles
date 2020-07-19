@@ -282,6 +282,12 @@
         "options": {
           "full_name": "kap"
         }
+      },
+      "mactex": {
+        "version": "2020.0407",
+        "options": {
+          "full_name": "mactex"
+        }
       }
     }
   },
