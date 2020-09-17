@@ -17,6 +17,7 @@ brew "speedtest-cli"
 brew "tmux"
 brew "unison"
 brew "wireshark"
+brew 'bitwarden-cli'
 
 cask "ngrok"
 cask "wireshark"
