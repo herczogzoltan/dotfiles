@@ -5,13 +5,16 @@
         "revision": "b84d4569eafe799c7c46c6c12c63215cb8095b6d"
       },
       "homebrew/cask": {
-        "revision": "bbc99a8a8b9db52ae9347356824fd2764b65cc2c"
+        "revision": "aef1515c46171b11153295df0be0050b9dd9dd29"
       },
       "homebrew/cask-versions": {
-        "revision": "9bf4e07824149b3f21d911cdca8d663217f2f6ac"
+        "revision": "a6621c005e7229be32191a2e542b0736fb6dcda7"
       },
       "homebrew/core": {
-        "revision": "5011429fc159593b61bfe9a7c0c4e748d5abfd27"
+        "revision": "e65de2a58c6fdd2eee21b5c994c4f7519d8b85de"
+      },
+      "heroku/brew": {
+        "revision": "16e0cc260a2cff6727fdf3f0f2c1763737942374"
       }
     },
     "brew": {
@@ -275,7 +278,8 @@
             }
           }
         }
-      }
+      },
+      "heroku/brew/heroku": null
     },
     "cask": {
       "ngrok": {
@@ -315,7 +319,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.5.1",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "5011429fc159593b61bfe9a7c0c4e748d5abfd27",
+        "Homebrew/homebrew-core": "e65de2a58c6fdd2eee21b5c994c4f7519d8b85de",
         "CLT": "1103.0.32.59",
         "Xcode": "11.7",
         "macOS": "10.15.6"

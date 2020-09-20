@@ -3,6 +3,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+tap "heroku/brew"
 
 brew "eugenmayer/dockersync/unox"
 brew "fping"
@@ -17,7 +18,8 @@ brew "speedtest-cli"
 brew "tmux"
 brew "unison"
 brew "wireshark"
-brew 'bitwarden-cli'
+brew "bitwarden-cli"
+brew "heroku/brew/heroku"
 
 cask "ngrok"
 cask "wireshark"
