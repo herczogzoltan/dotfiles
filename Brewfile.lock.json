@@ -2,19 +2,19 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "b84d4569eafe799c7c46c6c12c63215cb8095b6d"
+        "revision": "12702c2b9111a447bb89cd887771d20cffab4e63"
       },
       "homebrew/cask": {
-        "revision": "aef1515c46171b11153295df0be0050b9dd9dd29"
+        "revision": "e6527acc1a9b0f915cc140f427fbc301b28e0264"
       },
       "homebrew/cask-versions": {
-        "revision": "a6621c005e7229be32191a2e542b0736fb6dcda7"
+        "revision": "f6d0f09b6d24a2de0fddead491190d84a450fa02"
       },
       "homebrew/core": {
-        "revision": "e65de2a58c6fdd2eee21b5c994c4f7519d8b85de"
+        "revision": "b26365c8ffb5e3f781cc39d63d0e36d58e6cbc02"
       },
       "heroku/brew": {
-        "revision": "16e0cc260a2cff6727fdf3f0f2c1763737942374"
+        "revision": "4ebb95db2a01c9747397d4984059425ab0c95a5e"
       }
     },
     "brew": {
@@ -238,22 +238,22 @@
         }
       },
       "wireshark": {
-        "version": "3.2.6_1",
+        "version": "3.2.7",
         "bottle": {
           "cellar": "/usr/local/Cellar",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/wireshark-3.2.6_1.catalina.bottle.tar.gz",
-              "sha256": "44901e4adfd49b42fc6a83f994c54efd472e5c4652fdeeccec7b26ba430fb4ee"
+              "url": "https://homebrew.bintray.com/bottles/wireshark-3.2.7.catalina.bottle.tar.gz",
+              "sha256": "56e153eb88d099004475e721b08968f617991ea8c35f11e411fc77d9d1b35ed8"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/wireshark-3.2.6_1.mojave.bottle.tar.gz",
-              "sha256": "bddf386b908bc6945685f6e88b12fac899d45430a05e3b0cace0d3d085ace6b2"
+              "url": "https://homebrew.bintray.com/bottles/wireshark-3.2.7.mojave.bottle.tar.gz",
+              "sha256": "4fa7905354fa591917f8295a54d65aa246fad2c1796f7af7125031deb53f17c9"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/wireshark-3.2.6_1.high_sierra.bottle.tar.gz",
-              "sha256": "d041b5b49d8caf916033da0921db1c97f85630f381bd1ef71b70bed45ba1a03c"
+              "url": "https://homebrew.bintray.com/bottles/wireshark-3.2.7.high_sierra.bottle.tar.gz",
+              "sha256": "b8fb1209b735d6044f047a00adf05007111cf589b2bf5ad53fc3932acf2a0cff"
             }
           }
         }
@@ -311,17 +311,23 @@
         "options": {
           "full_name": "postman"
         }
+      },
+      "dropbox": {
+        "version": "latest",
+        "options": {
+          "full_name": "dropbox"
+        }
       }
     }
   },
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.5.1",
+        "HOMEBREW_VERSION": "2.5.2",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "e65de2a58c6fdd2eee21b5c994c4f7519d8b85de",
+        "Homebrew/homebrew-core": "b26365c8ffb5e3f781cc39d63d0e36d58e6cbc02",
         "CLT": "1103.0.32.59",
-        "Xcode": "11.7",
+        "Xcode": "12.0",
         "macOS": "10.15.6"
       }
     }

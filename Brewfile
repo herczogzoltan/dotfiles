@@ -26,3 +26,5 @@ cask "wireshark"
 cask "kap"
 cask "mactex"
 cask "postman"
+cask "dropbox"
+
