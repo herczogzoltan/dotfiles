@@ -2,19 +2,19 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "12702c2b9111a447bb89cd887771d20cffab4e63"
+        "revision": "18dcbbeefc61cc2f4de25d9fd4764a661603358b"
       },
       "homebrew/cask": {
-        "revision": "e6527acc1a9b0f915cc140f427fbc301b28e0264"
+        "revision": "97c4d91f06841a0e5b0baafb1217e006f73f1203"
       },
       "homebrew/cask-versions": {
-        "revision": "f6d0f09b6d24a2de0fddead491190d84a450fa02"
+        "revision": "0a64d771bef308c072e506336864ec4e34ff13b7"
       },
       "homebrew/core": {
-        "revision": "b26365c8ffb5e3f781cc39d63d0e36d58e6cbc02"
+        "revision": "d5fb4c1209ea1dfdac85d910e8c708d1268a2c6c"
       },
       "heroku/brew": {
-        "revision": "4ebb95db2a01c9747397d4984059425ab0c95a5e"
+        "revision": "b136754088b0180727b48660c5cb62782082ce51"
       }
     },
     "brew": {
@@ -279,7 +279,28 @@
           }
         }
       },
-      "heroku/brew/heroku": null
+      "heroku/brew/heroku": null,
+      "protobuf": {
+        "version": "3.13.0",
+        "bottle": {
+          "cellar": ":any",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/protobuf-3.13.0.catalina.bottle.tar.gz",
+              "sha256": "af2990ba0a6e5588ef2afbe2ea3378d3ef0ccb287bca040607b40b5628801113"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/protobuf-3.13.0.mojave.bottle.tar.gz",
+              "sha256": "0a5b436cc6be687df3767294952475adc81744c241595ec55b32efbfdd3d1f38"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/protobuf-3.13.0.high_sierra.bottle.tar.gz",
+              "sha256": "ca05568f7d2e45bab389b1e6024f38c79f86fa90fc66371453fd4e89bc62da1d"
+            }
+          }
+        }
+      }
     },
     "cask": {
       "ngrok": {
@@ -325,10 +346,10 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.5.2",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "b26365c8ffb5e3f781cc39d63d0e36d58e6cbc02",
+        "Homebrew/homebrew-core": "d5fb4c1209ea1dfdac85d910e8c708d1268a2c6c",
         "CLT": "1103.0.32.59",
-        "Xcode": "12.0",
-        "macOS": "10.15.6"
+        "Xcode": "12.0.1",
+        "macOS": "10.15.7"
       }
     }
   }

@@ -20,6 +20,7 @@ brew "unison"
 brew "wireshark"
 brew "bitwarden-cli"
 brew "heroku/brew/heroku"
+brew "protobuf"
 
 cask "ngrok"
 cask "wireshark"
