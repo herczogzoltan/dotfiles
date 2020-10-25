@@ -21,6 +21,7 @@ brew "wireshark"
 brew "bitwarden-cli"
 brew "heroku/brew/heroku"
 brew "protobuf"
+brew "cookiecutter"
 
 cask "ngrok"
 cask "wireshark"
@@ -28,4 +29,3 @@ cask "kap"
 cask "mactex"
 cask "postman"
 cask "dropbox"
-
