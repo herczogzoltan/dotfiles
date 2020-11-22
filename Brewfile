@@ -22,6 +22,8 @@ brew "bitwarden-cli"
 brew "heroku/brew/heroku"
 brew "protobuf"
 brew "cookiecutter"
+brew "go"
+brew "awscli"
 
 cask "ngrok"
 cask "wireshark"
